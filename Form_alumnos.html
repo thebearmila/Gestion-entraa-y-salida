@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario Institucional</title>
+    <link rel="stylesheet" href="style_alumnos.css">
+
+</head>
+<body>
+    <div class="form-container">
+        <h1>Registro Alumnos</h1>
+        <center><img src="alumnos1.gif" weight=200px height=200px> </center>
+        <form action="process.php" method="POST">
+            <label>Nombre completo:</label>
+            <input type="text" name="nombre_alumno" required>
+
+            <label>Numero de control:</label>
+            <input type="text" name="numcontrol" required>
+
+            <label>Grupo:</label>
+            <input type="text" name="grupo" required>
+
+            <label>Asunto:</label>
+            <input type="text" name="asunto_alumno" required>
+
+            <label>Motivo:</label>
+            <input type="text" name="motivo_alumno" required>
+
+            <label>Fecha:</label>
+            <input type="text" name="fecha_alumno" required>
+
+            <label>Hora de entrada:</label>
+            <input type="text" name="hora_entrada_alumno" required>
+
+            <label>Hora de salida:</label>
+            <input name="hora_salida_alumno" required>
+
+            <button type="submit">Enviar</button>
+            <button type="button" onclick="window.location.href='index.html'">Regresar</button>
+
+        </form>
+    </div>
+</body>
+</html>

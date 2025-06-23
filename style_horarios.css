@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('CECYCOACALCO.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: #cde2bf;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.tabla-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+table {
+    width: 90%;
+    max-width: 1000px;
+    border-collapse: collapse;
+    background-color: rgb(178, 243, 207);
+    box-shadow: 0 0 15px rgba(173, 228, 165, 0.932);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #09501b;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #a4ce89;
+    color: #fff;
+}
+
+td {
+    background-color: #7bb46a;
+    color: #f0fff0;
+}
+
+tr:nth-child(even) td {
+    background-color: #95c081e8;
+}
+button {
+    margin-top: 20px;
+    padding: 12px;
+    width: 100%;
+    background-color: #609e54;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2c6827;
+}

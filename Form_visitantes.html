@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario Institucional</title>
+    <link rel="stylesheet" href="style_visitantes.css">
+
+</head>
+<body>
+    <div class="form-container">
+        <h1>Registro Visitantes</h1>
+        <center><img src="visitante.gif" weight=200px height=200px> </center>
+        <form action="process.php" method="POST">
+            <label>Nombre completo:</label>
+            <input type="text" name="nombre_visitante" required>
+
+            <label>Procedencia:</label>
+            <input type="text" name="procedencia_visitante" required>
+
+            <label>Area que visita:</label>
+            <input type="text" name="area_visitante" required>
+
+            <label>Persona que visita:</label>
+            <input type="text" name="persona_visita_visitante" required>
+
+            <label>Asunto:</label>
+            <input type="text" name="asunto_visitante" required>
+
+            <label>Identificacion:</label>
+            <input type="text" name="identificacion_visitante" required>
+
+            <label>Hora de entrada:</label>
+            <input name="hora_entrada_visitante" required>
+
+            <label>Hora de salida:</label>
+            <input name="hora_salida_visitante" required>
+
+            <button type="submit">Enviar</button>
+            <button type="button" onclick="window.location.href='index.html'">Regresar</button>
+
+        </form>
+    </div>
+</body>
+</html>
